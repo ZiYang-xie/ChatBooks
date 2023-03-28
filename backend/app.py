@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask import send_from_directory
 
 app = Flask(__name__)
@@ -11,7 +11,7 @@ def receive_selected_text():
 
 @app.route("/")
 def index():
-    return send_from_directory(".", "index.html")
+    return render_template('index.html')
 
 @app.route("/<path:path>")
 def static_files(path):
