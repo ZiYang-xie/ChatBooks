@@ -1,6 +1,13 @@
 # ChatBooks 📚
+![Develop Time: 30min](https://img.shields.io/badge/Develop%20Time-42min-green)
 
 Welcome to **ChatBooks** - the interactive web-based EPUB viewer that integrates with ChatGPT to allow users to read and interact with their favorite books. ChatBooks lets readers chat with the content of the book using ChatGPT, providing a unique and engaging reading experience.
+
+## Something Interesting
+
+*This project is fully developed and debug with chatgpt and I only write minimal code, I hope I can finish this project within 5 hours to verify if it is possible to integrate chatgpt into developer's workflow and maximize our productivity*
+
+*I'm currently reaching the usage limit of GPT-4, having a rest~*
 
 ## Features
 

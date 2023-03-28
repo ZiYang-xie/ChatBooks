@@ -4,17 +4,14 @@
     "description": "Frontend for the ChatBooks EPUB viewer",
     "main": "main.js",
     "scripts": {
-      "build": "tsc main.ts --outFile ../backend/static/main.js"
+      "build": "tsc && cp dist/main.js ../backend/static/main.js && cp ./src/index.html ../backend/templates/index.html"
     },
     "repository": {
       "type": "git",
       "url": "https://github.com/ZiYang-xie/ChatBooks.git"
     },
-    "author": "Your Name",
+    "author": "Ziyang Xie",
     "license": "MIT",
-    "dependencies": {
-      "epubjs": "^0.3.107"
-    },
     "devDependencies": {
       "typescript": "^4.6.2"
     }
