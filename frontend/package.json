@@ -1,0 +1,22 @@
+{
+    "name": "chatbooks-frontend",
+    "version": "1.0.0",
+    "description": "Frontend for the ChatBooks EPUB viewer",
+    "main": "main.js",
+    "scripts": {
+      "build": "tsc main.ts --outFile ../backend/static/main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ZiYang-xie/ChatBooks.git"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "epubjs": "^0.3.107"
+    },
+    "devDependencies": {
+      "typescript": "^4.6.2"
+    }
+  }
+  

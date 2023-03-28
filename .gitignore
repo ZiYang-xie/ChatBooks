@@ -1,0 +1,32 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Python specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Flask specific files
+instance/
+
+# SQLite databases
+*.db
+
+# Pytest cache
+.pytest_cache/
+
+# Frontend specific files
+node_modules/
+frontend/dist/
+frontend/package-lock.json
+frontend/yarn.lock
